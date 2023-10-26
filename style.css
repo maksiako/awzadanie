@@ -1,0 +1,54 @@
+*{
+    font-family: Helvetica;
+    text-align: center;
+}
+body{
+    background-color: #555555;
+}
+#baner, #stopka{
+    background-color: #2c2c2c;
+    color: white;
+    padding: 8px;
+    clear:both;
+}
+#lewy, #prawy{
+    background-color: #ADD8E6;
+    width: 30%;
+    height: 280px;
+    padding-top: 40px;
+    margin: 15px;
+    box-shadow: 4px 4px 44px #82c1d6;
+    border-radius: 50px;
+}
+#lewy{
+    float: left;
+    margin-left: 365px;
+}
+#prawy{
+    float: left;
+}
+a{
+    color: rgb(93, 102, 236);
+    font-size: 150%;
+    padding: 6px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    border-radius: 10px;
+    color: white;
+}
+#baner{
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+}
+#stopka{
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+}
+li{
+    text-align: left;
+    padding: 10px;
+}
